@@ -3,9 +3,6 @@
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,100..900&display=swap');
-@import url('https://fonts.cdnfonts.com/css/made-bon-voyage');
-
 
 /* recomendaciones de google fonts // <uniquifier>: Use a uniquifier for the class name
 // <weight>: Use a value from 100 to 900
@@ -102,8 +99,6 @@ body {
 label {
     width: 26%;
     height: 0%;
-    /* transform: translate(16px, 94%); */
-    /* background-color: #000000fe; */
 }
 
 .link-menu {
@@ -182,7 +177,7 @@ label {
 
 
 main {
-    background-color: #000000;
+    background-color: #00000012;
     height: -670%;
     position: relative;
     z-index: -10;
@@ -208,10 +203,10 @@ main::after {
 .wave {
     /* background-color: #e20aff; */
     background: linear-gradient(#000000, #0e3288, #010207, #000000);
-    width: 126.1%;
+    width: 100%;
 
     /* transform: translate(-52px, 18.9%); */
-    transform: translate(-52px, 98%);
+    transform: translate(-1px, 98%);
     /* box-shadow: 1px 10px 25px rgb(0, 0, 0); */
     position: relative;
     z-index: 10;
@@ -222,11 +217,11 @@ main::after {
     content: "Donde tus personajes cobran vida";
     display: inline-block;
     color: #5871eb;
-    width: 60%;
+    width: 90%;
     height: 27%;
     font-size: 1.1em;
     text-align: center;
-    transform: translate(75px, -300%);
+    transform: translate(10px, -300%);
     z-index: 10;
 
 }
@@ -235,7 +230,7 @@ main::after {
     /* background-color: #850000; */
     /*provisorio */
     /* background: linear-gradient(#000000, #0e3288, #010207, #000000); */
-    background: linear-gradient(#000000, #861704, #010207, #000000);
+    /* background: linear-gradient(#000000, #861704, #010207, #000000); */
     /* background-color: #f43030;*/
     width: 100%;
     height: 530px;
@@ -269,7 +264,7 @@ text-align: center;
 
 .section-one::before {
     content: "BRAIDA";
-    width: 30%;
+    width: 90%;
     height: 300%;
     color: #000000;
     filter: drop-shadow(4px -1px 1px#117cfe);
@@ -277,7 +272,7 @@ text-align: center;
     font-size: 3em;
     /* writing-mode: vertical-rl; */
     font-weight: lighter;
-    transform: translate(7px, -710%);
+    transform: translate(19px, -710%);
     z-index: 10;
 }
 
@@ -468,7 +463,7 @@ button {
 
 .section-two-cards {
     background-color: rgba(198, 25, 146, 0.382);
-    /* background: linear-gradient(#000000, #861704, #010207, #000000); */
+    /* background: linear-gradient(#000000, #b18f05, #eedb0b, #1f1601); */
     /* background-color: #090833f8; */
     width: 100%;
     height: 250dvh;
@@ -481,7 +476,7 @@ button {
 .title-section-two {
     background-color: #c31d1df5;
     color: #fdfff8;
-    width: 90%;
+    width: 100%;
     font-size: 1.8rem;
     font-weight: lighter;
     font-style: oblique;
@@ -513,7 +508,7 @@ button {
 }
 
 .section-two-cards p {
-    background-color: #fded10;
+    background-color: #4f10fd;
 
 }
 
@@ -545,9 +540,9 @@ button {
     transform: translateY(11px);
 }
 
-.contact {
+.contactos {
     background-color: rgb(0, 0, 0);
-    max-width: 100%;
+    width: 80%;
     height: 110px;
     display: flex;
     flex-direction: column;
@@ -561,11 +556,11 @@ button {
 }
 
 i {
-    color: #082341;
+    color: #71aa17;
 }
 
 
-footer a:last-child {
+.contactos a:last-child {
     /* filter: drop-shadow(2px 2px 1px #eff0ff); */
     font-size: 2rem;
     position: fixed;
