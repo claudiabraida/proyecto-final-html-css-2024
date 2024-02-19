@@ -27,9 +27,7 @@ body {
     flex-direction: column;
     position: relative;
     z-index: 10;
-   z-index: -1;
 
-    flex-direction: column;
 }
 
 
@@ -133,6 +131,8 @@ label {
     text-align: center;
 }
 
+
+
 /* SEUDOCLASE EFECTO CAMBIO DE COLOR LISTADO li a */
 .link-menu li a:hover {
     background-color: rgb(195, 0, 0);
@@ -161,7 +161,7 @@ label {
 .wave{
    /*  /*  background-color: #e20aff;*/
     background: linear-gradient(#010308, #000000, #800000, rgb(115, 2, 2), #0b0000);
-    transform: translate(0.1px, 20%);
+    transform: translate(0.1px, 4%);
     position: relative;
     z-index: -10;
 }
@@ -174,16 +174,11 @@ width: 0;
     /* filter: drop-shadow(2px 1px 1px #fff5f5); */
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    /* font-family: 'Year One', sans-serif; */
-   /* font-family: 'Gtek Regular', sans-serif; */
-                                                
-                                                
-                                                
+   /* font-family: 'Gtek Regular', sans-serif;                      
     font-weight: lighter ;
-
     /* font-family: 'BodoniMutant', sans-serif; */
-    font-size: 2.3em;
-
-    transform: translate(3px, -430%);
+    font-size: 2em;
+    transform: translate(4px, -430%);
     /* writing-mode: unset; */
     z-index: 10;
 }
@@ -192,13 +187,12 @@ width: 0;
     /**/ background-color: #f43030;
     /* background: linear-gradient(#000104, #400707, #3c0303, #000003); */
     /* background: linear-gradient(#000000, #861704, #010207, #000000); */
-    
   max-width: 100%;
-    height: 280dvh;
+    height: 183dvh;
     padding: 0;
     display: flex;
     flex-direction: column;
-    transform: translateY(3.6%);
+    transform: translateY(-1%);
     /* transform: translateY(0.2%); */
     position: relative;
     z-index: -1;
