@@ -1,8 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@1,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/made-bon-voyage');
+/* font-family: 'MADE Bon Voyage', sans-serif; */      
+@import url('https://fonts.cdnfonts.com/css/bodoni-mutant');
+/* font-family: 'BodoniMutant', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/year-one');
+/* font-family: 'Year One', sans-serif;
+font-family: 'Year One 3D', sans-serif;
+font-family: 'Year One 3D Italic', sans-serif;
+font-family: 'Year One Condensed', sans-serif;
+font-family: 'Year One Condensed Italic', sans-serif;
+font-family: 'Year One Expanded', sans-serif;
+font-family: 'Year One Expanded Italic', sans-serif;
+font-family: 'Year One Italic', sans-serif;
+font-family: 'Year One Leftalic', sans-serif;
+font-family: 'Year One Semi-Italic', sans-serif;
+font-family: 'Year One Semi-Leftalic', sans-serif;
+font-family: 'Year One Spaced', sans-serif;
+font-family: 'Year One Spaced Italic', sans-serif;
+font-family: 'Year One Super-Italic', sans-serif;
+font-family: 'Year One Super-Leftalic', sans-serif;
+font-family: 'Year One Title', sans-serif;
+font-family: 'Year One Title Italic', sans-serif; */
+@import url('https://fonts.cdnfonts.com/css/gtek');
+                
+/* font-family: 'Gtek Regular', sans-serif; */
+                                                
 
 @import url('../css/normalize.css');
-@import url('../css/mobile.css') screen and (min-width:200px);
-@import url('../css/tablet.css') screen and (min-width:201px) and (max-width:768px);
+@import url('../css/mobile.css') screen and (max-width:320px);
+ @import url('../css/tablet.css') screen and (max-width:321px) and (max-width:768px); 
 @import url('../css/desktop.css') screen and (max-width:1024px);
 
+
+
+/*@media screen and (min-width:320px) {
+    .hero { 
+       background-color: #6996ff;
+       flex-direction: row;
+       background-image: url(../img/Ai-heroína-estilo-antiguo-optimiz.jpg); 
+       background-repeat: no-repeat;
+       background-size: cover;
+       width: 100%;
+       height: 28.5dvh;
+
+   }
+}*/
+
+
+  /*@media screen and (min-width:321px) {
+.hero img{
+   
+   display: none;
+   
+} 
+}
+
+@media screen and (max-width:320px){
+
+.nav-bar {
+
+   background-color: #7fffd476; 
+  
+    background-color: red;
+    width:100%;
+    height: 49%; 
+
+
+}
+}*/
