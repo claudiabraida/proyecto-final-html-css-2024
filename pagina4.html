@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>FORMULARIO</title>
+</head>
+<body>
+    <main>
+        <section class="Formulario">
+            <h5>Bienvenido al mundo Alpha!</h5>
+        <form action="datos">
+            <fieldset>
+                <legend>El principio de tus éxitos están aquí!</legend>
+
+                <label class="nombre" for="nombre">Nombre y Apellido:</label><br>
+                <input type="text" placeholder="nombre y apellido" id="nombre"><br>
+
+                <label for="email">correo electrónico</label><br>
+                <input type="email" name="email" placeholder="email" id="email" required><br>
+
+                <label for="telefono">Teléfono</label><br>
+                <input type="text" name="telefono" id="telefono" placeholder="tel"><br>
+
+                <label for="tipo-proyecto">Tipo de Proyecto:</label><br>
+                <select name="select" id="tipo-proyecto" size="1">
+                    <option class="video-juegos" value="video-juegos">Videojuegos</option>
+                    <option value="películas">Películas</option>
+                    <option value="video-publicitario">Video Publicitario</option>
+                </select><br>
+                <label for="descripcion-proyecto">Descripción del Proyecto:</label><br>
+                <textarea name="textarea" id="descripcion-proyecto" cols="25" rows="9"
+                    style="resize: none;"></textarea><br>
+                <input type="submit" value="enviar">
+            </fieldset>
+        </form>
+    </section>
+    <a href="index.html">Volver</a>
+    </main>
+</body>
+</html>
