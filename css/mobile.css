@@ -331,7 +331,7 @@ label {
     transition: 4s;
 }
 
-button {
+.button {
     background-color: #9da202;
     color: #fffaf4fb;
     width: 80px;
